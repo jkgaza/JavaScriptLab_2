@@ -6,11 +6,12 @@ let grantDeath = "";
 
 //initial prompt
 
+let user = "";
 let answer = prompt("Would you like to play a game?");
 
 if (answer === "yes","Yes") {
-  document.getElementById("start").innerHTML =
-  console.log(prompt("Great! What is your name?"));
+//   document.getElementById("start").innerHTML =
+  let user = prompt("Great! What is your name?");
 }
 
 
@@ -19,6 +20,8 @@ while (userHealth > 0 & grantDeath < 3){
     grantHealth == Math.floor(Math.random() * 3);
     userHealth == Math.floor(Math.random() * 3);
 }
+
+
 //haha i dont know what im doing
 // function playerName(name){
 //     const answer = getRandomAnswer(answers);
