@@ -1,7 +1,7 @@
 /** @todo Figure this out and don't die in the process */
 
-let grantHealth = "";
-let userHealth = "";
+let grantHealth = 10;
+let userHealth = 40;
 let grantDeath = "";
 
 //initial prompt
@@ -16,9 +16,11 @@ if (answer === "yes","Yes") {
 
 
 //while loop
-while (userHealth > 0 & grantDeath < 3){
-    grantHealth == Math.floor(Math.random() * 3);
-    userHealth == Math.floor(Math.random() * 3);
+while (userHealth > 0, grantDeath < 3){
+    grantHealth == grantHealth - (Math.floor(Math.random() * 3));
+    userHealth == userHealth - (Math.floor(Math.random() * 3));
+    prompt(user + " has " + userHealth + " left.");
+    prompt("Grant the Great has " + grantHealth + " left.");
 }
 
 
