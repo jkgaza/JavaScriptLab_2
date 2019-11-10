@@ -19,8 +19,8 @@ if ((answer === "yes" , "Yes")) {
 while (userHealth > 0 && grantDeath < 3) {
   grantHealth = grantHealth - Math.floor(Math.random() * 3);
   userHealth = userHealth - Math.floor(Math.random() * 3);
-  console.log(user + " has " + userHealth + " left.");
-  console.log("Grant the Great has " + grantHealth + " left.");
+  console.log(user + " has " + userHealth + " life left.");
+  console.log("Grant the Great has " + grantHealth + " life left.");
 
   if (grantHealth <= 0) {
     grantHealth = 10;
@@ -37,10 +37,3 @@ if (grantDeath = 3){
 
 }
 
-
-
-
-/**An if statement?? If user says yes to playing game, leads to
- * another prompt where name is asked? If no, something like "ur lame".
- * How to initialize actual game after that
- */
