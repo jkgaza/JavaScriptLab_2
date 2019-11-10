@@ -26,14 +26,16 @@ while (userHealth > 0 && grantDeath < 3) {
     grantHealth = 10;
     grantDeath++;
     console.log("Grant died!");
-//   } else if (userHealth <= 0) {
-  //    console.log("Grant the Great is the winner");
   }
 
 }
 
 if (grantDeath = 3){
-    console.log(user + " has won!")
+    console.log(user + " has won!");
 
+}
+
+if (userHealth < 0){
+    console.log("Grant has won!");
 }
 
