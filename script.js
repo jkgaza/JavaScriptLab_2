@@ -17,11 +17,13 @@ let user = "";
 
 //while loop
 while ((userHealth > 0, grantDeath < 3)) {
-  grantHealth == grantHealth - Math.floor(Math.random() * 3);
-  userHealth == userHealth - Math.floor(Math.random() * 3);
+  grantHealth == grantHealth --- Math.floor(Math.random() * 3);
+  userHealth == userHealth --- Math.floor(Math.random() * 3);
   console.log(user + " has " + userHealth + " left.");
   console.log("Grant the Great has " + grantHealth + " left.");
+  break
 }
+
 
 //haha i dont know what im doing
 // function playerName(name){
