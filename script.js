@@ -4,7 +4,7 @@ let grantHealth = 10;
 let userHealth = 40;
 let grantDeath = "";
 
-//initial prompt
+//Initial prompt
 
 let answer = prompt("Would you like to play a game?");
 
@@ -15,7 +15,7 @@ if ((answer === "yes" , "Yes")) {
 }
 
 
-//while loop
+//While loop
 while (userHealth > 0 && grantDeath < 3) {
   grantHealth = grantHealth - Math.floor(Math.random() * 3);
   userHealth = userHealth - Math.floor(Math.random() * 3);
@@ -29,6 +29,8 @@ while (userHealth > 0 && grantDeath < 3) {
   }
 
 }
+
+//If loops. These could probably be cleaner. 
 
 if (grantDeath = 3){
     console.log(user + " has won!");
