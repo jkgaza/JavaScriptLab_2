@@ -1,4 +1,6 @@
-/** @todo Figure this out and don't die in the process */
+/** Jordan Gaza's JavaScript Game Lab
+ * Short turn-based game using prompts, while, and if loops.
+ * @todo Declare variables, work them into equation  */
 
 let grantHealth = 10;
 let userHealth = 40;
@@ -32,7 +34,7 @@ while (userHealth > 0 && grantDeath < 3) {
 
 }
 
-//If loops. These could probably be cleaner. 
+//If loops 
 
 if (grantDeath === 3){
     console.log(user + " has won!");
